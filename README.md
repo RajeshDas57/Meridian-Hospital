@@ -355,16 +355,13 @@ Loaded from the hospital's dashboard CSV exports:
 ```
    For XAMPP defaults use host `127.0.0.1`, user `root`, empty password. If your MySQL runs on a different port (for example `3307`), set `DB_PORT` to match.
 6. Open **http://localhost/Meridian_Hospital_Chattogram/**
+## Admin Login
 
-**Admin panel:** `http://localhost/Meridian_Hospital_Chattogram/admin/login.php`
+The administrator can access the admin panel using authorized credentials.
 
-| Field | Value |
-|---|---|
-| Email | `das903139@gmail.com` |
-| Password | `ChangeMe@2026` |
+**Admin Login URL:** `/admin/login.php`
 
-> ⚠️ **Change this password immediately** — see [section 14](#14-change-the-admin-password).
-
+> For security reasons, default login credentials are not published in this repository.
 ### Adding doctors
 
 - **One by one:** Admin → *Doctor → Add Doctor* (category, sub-category, BMDC, degrees, fee, availability, image, signature, …)
